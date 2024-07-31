@@ -9,7 +9,7 @@ import LayoutThree from "../components/layout/LayoutThree.jsx";
 import LayoutTwo from "../components/layout/LayoutTwo.jsx";
 import Layout from "../components/layout/index.jsx";
 import ErrorPage from "../error-page";
-import AboutUs from "../page/AboutUs";
+import AboutUs from "../page/ClassIndex.jsx";
 import ContactUs from "../page/ContactUs";
 import Pricing from "../page/Pricing";
 import Reset from "../page/auth/ResetPassword.jsx";
@@ -35,6 +35,7 @@ import SingleTeam from "../page/team/SingleTeam.jsx";
 import CommingSoon from "../page/utility/CommingSoon.jsx";
 import Faq from "../page/utility/Faq.jsx";
 import TestimonialPage from "../page/utility/Testimonial.jsx";
+import ClassIndex from "../page/ClassIndex.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -49,6 +50,12 @@ export const router = createBrowserRouter([
             path: "/",
             element: <HomeTwo />,
           },
+
+          {
+            path: "/combinedmaths",
+            element: <ClassIndex />,
+          },
+
           {
             path: "/about-us",
             element: <AboutUs />,

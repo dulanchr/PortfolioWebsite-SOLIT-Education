@@ -10,32 +10,32 @@ export const routes = [
 		subRoutes: [
 			
 			{
-				title: "උසස් පෙළ ගණිතය",
-				href: "#",
-				subRoutes: [
-					{
-						title: "චතුරිකා රණතුංග",
-						href: "blog",
-					},
-					{
-						title: "ප්‍රභාත් චතුරංග",
-						href: "blog-grid",
-					},
-				],
+				title: "සං‍යුක්ත ගණිතය",
+				href: "combinedmaths",
+				// subRoutes: [
+				// 	{
+				// 		title: "චතුරිකා රණතුංග",
+				// 		href: "blog",
+				// 	},
+				// 	{
+				// 		title: "ප්‍රභාත් චතුරංග",
+				// 		href: "blog-grid",
+				// 	},
+				// ],
 			},
 			{
 				title: "සාමාන්‍ය පෙළ ගණිතය",
-				href: "#",
-				subRoutes: [
-					{
-						title: "චතුරිකා රණතුංග",
-						href: "blog",
-					},
-					{
-						title: "ප්‍රභාත් චතුරංග",
-						href: "blog-grid",
-					},
-				],
+				href: "combinedmaths",
+				// subRoutes: [
+				// 	{
+				// 		title: "චතුරිකා රණතුංග",
+				// 		href: "blog",
+				// 	},
+				// 	{
+				// 		title: "ප්‍රභාත් චතුරංග",
+				// 		href: "blog-grid",
+				// 	},
+				// ],
 			},
 			
 		],
